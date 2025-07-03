@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(223, 142, 186);
+}
+
+h1 {
+    text-align: center;
+    
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+     
+    font-weight: bold;
+}
+
+table {
+  border: 2px solid rgb(228, 205, 240);
+  width: 650px;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: rgb(235, 194, 235);
+}
+
+td {
+  border-top: 1px solid rgb(234, 207, 248);
+}
+
+/* Navigation Bar Styling */
+nav {
+    width: 100%;
+    background-color: #6a0dad; /* Deep purple background for nav */
+    padding: 15px 0; /* Slightly more vertical padding for prominence */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: sticky; /* Makes nav stick to the top when scrolling */
+    top: 0;
+    z-index: 1000; /* Ensures nav stays on top of other content */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* This centers the nav items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    align-items: center; /* Vertically centers items if they have different heights */
+}
+
+nav li {
+    margin: 0 20px; /* Increased space between nav items for better separation */
+}
+
+nav a {
+    color: white; /* White text for nav links */
+    text-decoration: none; /* Remove underline */
+    /* --- Updated Text and Font Styling Below --- */
+    font-family: 'Arial', sans-serif; /* A clear, commonly available bold font */
+    font-size: 1.1em; /* Slightly larger font size for better readability */
+    font-weight: 700; /* Explicitly bold font weight (can also use 'bold') */
+    /* --- End Updated Styling --- */
+    padding: 8px 15px; /* More padding around text for larger clickable area */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Added transform for subtle click effect */
+}
+
+nav a:hover {
+    background-color: #8a2be2; /* Lighter purple on hover */
+    transform: translateY(-1px); /* Slight lift on hover */
+}
+
+nav a:active {
+    transform: translateY(0); /* Return to normal position on click */
+}
+
+/* Rest of your CSS (body, h1, h2, section, table, th, td, thead th, .code-example, @media queries) remains the same */
