@@ -1,6 +1,8 @@
 # Cheat-Sheet
 
 HTML Cheat Sheet
+Live Demo: https://macdonald91.github.io/Cheat-Sheet/
+
 This project is a simple, interactive HTML cheat sheet designed to provide a quick reference for common HTML tags and their attributes. It's built as a single-page application with a navigation bar that allows users to quickly jump between different categories of HTML elements.
 
 Features
